@@ -62,4 +62,6 @@ df$ID
 
 #Subsetting a Data Frame based on some condition.(we will use subset() fxn for this)
 # Select price above 5
-subset(df, subset = price > 5)
+subset(df, subset = price >= 5)
+
+subset(df, subset = store =='TRUE' )
